@@ -6,7 +6,6 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/itworksonmycluster/go-aws"
 )
 
 func LoadConfig() (*aws.Config, error) {
